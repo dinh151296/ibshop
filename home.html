@@ -35,6 +35,11 @@
         </div>
         <div class="container">
             <div class="header__center d-flex align-items-center">
+                <div class="hambugur">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
                 <a href="home.html" class="header__logo">
                     <img src="./assets/images/logo.svg" alt="">
                 </a>
@@ -46,18 +51,20 @@
                         </div>
                     </form>
                 </div>
-                <div class="language">
-                    <div class="lang__inner d-flex align-items-center">
-                        <img src="./assets/images/flag-vn.svg" alt="">
-                        <span class="d-flex align-items-center">Language <img src="./assets/images/down-blue.svg" alt=""></span>
+                <div class="header__right d-flex align-items-center">
+                    <div class="language">
+                        <div class="lang__inner d-flex align-items-center">
+                            <img src="./assets/images/flag-vn.svg" alt="">
+                            <span class="d-flex align-items-center">Language <img src="./assets/images/down-blue.svg" alt=""></span>
+                        </div>
                     </div>
-                </div>
-                <div class="header__cart d-flex align-items-center">
-                    <div class="cart-icon d-flex align-items-center">
-                        <img src="./assets/images/cart-black.svg" alt="">
-                        <span>0</span>
+                    <div class="header__cart d-flex align-items-center">
+                        <div class="cart-icon d-flex align-items-center">
+                            <img src="./assets/images/cart-black.svg" alt="">
+                            <span>0</span>
+                        </div>
+                        <a href="#" class="header__register">Register</a>
                     </div>
-                    <a href="#" class="header__register">Register</a>
                 </div>
             </div>
             <nav class="header__nav">
@@ -69,10 +76,24 @@
                         </a>
                     </li>
                     <li class="menu-item">
-                        <a href="#" class="menu-link">
+                        <a href="#" class="menu-link menu-link__has-sub">
                             <span>Collections</span>
                             <img src="./assets/images/down-icon.svg" alt="">
                         </a>
+                        <ul class="menu__sub">
+                            <li>
+                                <a href="#">Health and beauty</a>
+                            </li>
+                            <li>
+                                <a href="#">Releases</a>
+                            </li>
+                            <li>
+                                <a href="#">Health and beauty</a>
+                            </li>
+                            <li>
+                                <a href="#">Health and beauty</a>
+                            </li>
+                        </ul>
                     </li>
                     <li class="menu-item">
                         <a href="#" class="menu-link">
@@ -139,6 +160,9 @@
                         <div class="swiper-wrapper">
                             <div class="swiper-slide">
                                 <div class="product__item">
+                                    <div class="product__type --gold position-absolute">
+                                        <img src="./assets/images/gold.svg" alt="">
+                                    </div>
                                     <a class="__thumb" href="#">
                                         <img src="./assets/images/thumb01.png" alt="">
                                     </a>
@@ -158,6 +182,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="product__item">
+                                    <div class="product__type --sliver position-absolute">
+                                        <img src="./assets/images/sliver.svg" alt="">
+                                    </div>
                                     <a class="__thumb" href="#">
                                         <img src="./assets/images/thumb02.png" alt="">
                                     </a>
@@ -177,6 +204,9 @@
                             </div>
                             <div class="swiper-slide">
                                 <div class="product__item">
+                                    <div class="product__type --diamond position-absolute">
+                                        <img src="./assets/images/diamond.svg" alt="">
+                                    </div>
                                     <a class="__thumb" href="#">
                                         <img src="./assets/images/thumb03.png" alt="">
                                     </a>

@@ -118,6 +118,18 @@
     min-height: 376px;
 
     align-self: stretch;
+    position: relative;
+}
+
+.product__type {
+    top: 0px;
+    left: 0px;
+    width: 80px;
+    z-index: 2;
+}
+
+.product__type img {
+    max-width: 80px;
 }
 
 .product__item .__thumb {
@@ -150,7 +162,7 @@
     font-size: 13px;
     color: #F71B1B;
     text-decoration: line-through;
-    line-height: 1;
+    line-height: 1.1;
 }
 
 .product__price span.new {
@@ -180,7 +192,7 @@
 }
 
 .product__item-text .__note {
-    font-size: 14px;
+    font-size: 11px;
     margin-top: 6px;
 }
 
@@ -269,3 +281,16 @@
 .home-sl__item img {
     border-radius: 10px;
 }
+
+.home-banner-sl .swiper-pagination .swiper-pagination-bullet {
+    width: 12px;
+    height: 12px;
+    border: 3px solid #fff;
+    background-color: transparent;
+    opacity: 1;
+}
+
+.home-banner-sl .swiper-pagination .swiper-pagination-bullet.swiper-pagination-bullet-active {
+    background-color: #fff;
+}
+
