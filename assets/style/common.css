@@ -67,8 +67,8 @@ input, select {
     .container {
         max-width: 960px;
     }
-    section.section {
-        padding: 60px 0 !important;
+    .section {
+        padding: 45px 0 ;
     }
 }
 
@@ -313,8 +313,9 @@ footer::after {
 .footer__block a {
     font-size: 15px;
     font-weight: 400;
-    display: inline-block;
+    display: block;
     margin-bottom: 10px;
+    width: fit-content;
 }
 
 .footer__block.--ct {
@@ -469,6 +470,21 @@ footer::after {
     .hambugur.active span:nth-child(3) {
         transform: rotate(-45deg) translate(5px, -5px);
     }
+    .footer__bt {
+        padding-bottom: 20px;
+        flex-wrap: wrap;
+        justify-content: center !important;
+    }
+    .footer__copyright {
+        order: 3;
+        width: 100%;
+        padding-top: 20px;
+        margin-top: 20px;
+        border-top: 1px solid #ccc;
+    }
+    .ft__payment {
+        margin-bottom: 20px;
+    }
 }
 /* end breakpoint 1024px */
 
@@ -504,7 +520,14 @@ footer::after {
     .header__right  {
         padding-bottom: 6px;
     }
-    
+    .footer__block {
+        margin-bottom: 40px;
+    }
+    .ft__patner {
+        flex-wrap: wrap;
+        gap: 20px;
+        row-gap: 10px;
+    }
 }
 /* end breakpoint 768px */
 
@@ -530,5 +553,13 @@ footer::after {
     .header__search .form-group button {
         max-width: 56px;
     }
+    .footer__block.--ct {
+        max-width: 100%;
+    }
 }
 /* end breakpoint 479px */
+
+@media only screen and (max-width: 360px) {
+
+}
+/* end breakpoint 360px */
