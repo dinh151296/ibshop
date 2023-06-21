@@ -184,6 +184,13 @@
 
 }
 
+@media only screen and (max-width: 768px) {
+    .wrap__content-login {
+        padding: 60px 0px 20px; 
+    }
+}
+
+
 @media only screen and (max-width: 479px) {
     .login-box,
     .under__login-box {

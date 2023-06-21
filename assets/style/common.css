@@ -15,7 +15,6 @@
 body {
     font-weight: 400;
     color: #292828;
-    overflow-x: hidden;
     font-size: 14px;
     line-height: 1.6;
     font-family: 'Poppins', sans-serif;
@@ -385,7 +384,37 @@ footer::after {
     display: none;
 }
 
+/*========= class common =========*/
+.transport__block {
+    column-gap: 30px;
+    max-width: 260px;
+}
+
+.transport__block .__text {
+    flex: 1;
+    font-size: 15px;
+}
+
+.transport__block .__text h4 {
+    font-weight: 700;
+    margin-bottom: 10px;
+    color: #0B0D4C;
+    font-size: 15px;
+}
+
+.transport__block p {
+    font-size: 12px;
+    color: #292929;
+}
+/*========= class common =========*/
+
 /*====== start responsive style ======*/
+@media only screen and (max-width: 1480px) {
+    .container {
+        max-width: 1240px;
+    }
+}
+
 @media only screen and (max-width: 1024px) {
     .lang__inner span {
         display: none !important;
@@ -527,6 +556,9 @@ footer::after {
         flex-wrap: wrap;
         gap: 20px;
         row-gap: 10px;
+    }
+    .transport__block {
+        max-width: 400px;
     }
 }
 /* end breakpoint 768px */

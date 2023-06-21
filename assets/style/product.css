@@ -1,0 +1,138 @@
+/*========== style for product page ==========*/
+.breadcrumb-item {
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.breadcrumb-item a:hover {
+    color: #2A12A7;
+}
+
+.product__info-right {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 25px;
+    box-shadow: 0px 5px 10px 0px #00000008;
+    padding: 30px 35px;
+}
+
+.product__info-right .__name-p {
+    font-size: 26px;
+    font-weight: 400;
+    display: inline-block;
+}
+
+.product__info-right .__name-p img {
+    display: inherit;
+    max-width: 18px;
+}
+
+.p-status {
+    color: #B7B7B7;
+    font-size: 13px;
+}
+
+.p-status span {
+    color: #0086FF;
+    padding-left: 10px;
+}
+
+.p-star span {
+    font-size: 13px;
+    color: #111111;
+    font-weight: 400;
+    padding-left: 3px;
+    padding-top: 2px;
+}
+
+.p-hightlight {
+    width: fit-content;
+    background-color: #DFF0FF;
+    border-radius: 3px;
+    padding: 4px 10px;
+    color: #0086FF;
+    font-size: 13px;
+    font-weight: 400;
+}
+
+.wrap__p-price {
+    margin-top: 24px;
+    padding: 40px 0px;
+    border-top: 1px solid #606060;
+}
+
+.wrap__p-price .__title {
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.p-price__text {
+    flex: 1;
+    padding-left: 44px;
+}
+
+.p-price__text p {
+    font-size: 16px;
+    margin-bottom: 3px;
+}
+
+.p-price__old {
+    color: #F71B1B;
+    font-size: 14px;
+}
+
+.p-price__new {
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #FF9A00;
+}
+
+.btn-y {
+    font-size: 12px;
+    font-weight: 600;
+    border-radius: 30px;
+    background-color: #FF9A00;
+    padding: 1.5px 13px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    column-gap: 2px;
+}
+
+.p__up-to {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+    color: #0086FF;
+    font-size: 12px;
+    column-gap: 5px;
+    border-radius: 30px;
+    padding: 2px 12px;
+    border: 1px solid #0086FF;
+}
+
+.p-shipping__box {
+    padding: 18px;
+    background-color: #F2F2F5;
+    border-radius: 16px;
+    margin-bottom: 32px;
+}
+
+.btn-buy {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background: linear-gradient(180deg, #FFD85A 0%, #FF9A00 100%);
+    border-radius: 40px;
+    padding: 14px 12px;
+    font-size: 16px;
+    font-weight: 700;
+    position: relative;
+}
+
+.btn-buy:hover {
+    color: #fff;
+}
