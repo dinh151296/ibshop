@@ -556,9 +556,13 @@ footer::after {
         flex-wrap: wrap;
         gap: 20px;
         row-gap: 10px;
+        justify-content: center;
     }
     .transport__block {
         max-width: 400px;
+    }
+    .breadcrumb-item {
+        font-size: 11px;
     }
 }
 /* end breakpoint 768px */
