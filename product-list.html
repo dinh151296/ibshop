@@ -1,0 +1,627 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="#" rel="shortcut icon">
+    <link rel="apple-touch-icon" href="#">
+
+    <title>Product list page</title>
+
+    <!-- link css bootstrap 5 -->
+    <link href="./vendor/bootstrapv5/bootstrap.min.css" rel="stylesheet" >
+    <!-- link css bootstrap 5 -->
+
+    <!-- slider -->
+    <link rel="stylesheet" href="./vendor/swiper/swiper-bundle.min.css"/>
+    <!-- slider -->
+
+     <!-- link css -->
+     <link rel="stylesheet" href="assets/style/common.css" type="text/css">
+     <link rel="stylesheet" href="assets/style/product-list.css" type="text/css">
+     <!-- link css -->
+
+    
+
+</head>
+<body>
+
+    <!-- start header -->
+    <header>
+        <div class="header__top d-flex justify-content-center align-items-center text-white">
+            <img src="./assets/images/cart-white.svg" alt="">Buy one get one free on all products
+        </div>
+        <div class="container">
+            <div class="header__center d-flex align-items-center">
+                <div class="hambugur">
+                    <span class="line1"></span>
+                    <span class="line2"></span>
+                    <span class="line3"></span>
+                </div>
+                <a href="home.html" class="header__logo">
+                    <img src="./assets/images/logo.svg" alt="">
+                </a>
+                <div class="header__search">
+                    <form action="">
+                        <div class="form-group">
+                            <input class="form-control" type="text" placeholder="What are you looking for?">
+                            <button type="submit" class="btn p-0"><img src="./assets/images/Button-search.svg" alt=""></button>
+                        </div>
+                    </form>
+                </div>
+                <div class="header__right d-flex align-items-center">
+                    <div class="language">
+                        <div class="lang__inner d-flex align-items-center">
+                            <img src="./assets/images/flag-vn.svg" alt="">
+                            <span class="d-flex align-items-center">Language <img src="./assets/images/down-blue.svg" alt=""></span>
+                        </div>
+                    </div>
+                    <div class="header__cart d-flex align-items-center">
+                        <div class="cart-icon d-flex align-items-center">
+                            <img src="./assets/images/cart-black.svg" alt="">
+                            <span>0</span>
+                        </div>
+                        <a href="#" class="header__register">Register</a>
+                    </div>
+                </div>
+            </div>
+            <nav class="header__nav">
+                <ul class="main-menu">
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <img src="./assets/images/Icon-bugur.svg" alt="">
+                            <span>Start</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link menu-link__has-sub">
+                            <span>Collections</span>
+                            <img src="./assets/images/down-icon.svg" alt="">
+                        </a>
+                        <ul class="menu__sub">
+                            <li>
+                                <a href="#">Health and beauty</a>
+                            </li>
+                            <li>
+                                <a href="#">Releases</a>
+                            </li>
+                            <li>
+                                <a href="#">Health and beauty</a>
+                            </li>
+                            <li>
+                                <a href="#">Health and beauty</a>
+                            </li>
+                        </ul>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span>Collections</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span>Health and beauty</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span>Track your order</span>
+                        </a>
+                    </li>
+                    <li class="menu-item">
+                        <a href="#" class="menu-link">
+                            <span>Contact us</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <!-- end header -->
+
+    <!-- start main -->
+    <main class="main-page__product">
+        <div class="container pt-3 pb-3">
+            <nav style="--bs-breadcrumb-divider: url(&#34;data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='8' height='8'%3E%3Cpath d='M2.5 0L1 1.5 3.5 4 1 6.5 2.5 8l4-4-4-4z' fill='currentColor'/%3E%3C/svg%3E&#34;);" aria-label="breadcrumb">
+                <ol class="breadcrumb mb-0">
+                  <li class="breadcrumb-item"><a href="#">Home page</a></li>
+                  <li class="breadcrumb-item active" aria-current="page">Health and beauty</li>
+                </ol>
+            </nav>
+
+            <div class="row pt-lg-5 pt-4">
+                <div class="col-12 col-md-5 col-lg-4 col-xl-2">
+                    <div class="aside__block">
+                        <h3>Main menu</h3>
+                        <ul class="aside-menu">
+                            <li><a href="">Start</a></li>
+                            <li class="is-active">
+                                <span>Collections<img src="./assets/images/up.svg" alt=""></span> 
+                                <ul class="aside-submenu">
+                                    <li>
+                                        <a href="">House and decoration</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Children's</a>
+                                    </li>
+                                    <li class="is-active">
+                                        <a href="">Health and beauty</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Tools and Repairs</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Electronics</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Accessories</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Automotive</a>
+                                    </li>
+                                    <li>
+                                        <a href="">utensils</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li>
+                                <a href="">Children's</a>
+                            </li>
+                            <li class="is-active">
+                                <a href="">Health and beauty</a>
+                            </li>
+                            <li>
+                                <a href="">track your order</a>
+                            </li>
+                            <li>
+                                <a href="contact.html">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-7 col-lg-8 col-xl-10">
+                    <div class="product-lsit__content">
+                        <h2 class="product-list__title">Health and beauty</h2>
+                        <div class="d-flex justify-content-end mb-4">
+                            <div class="pagination-site --top">
+                                <span class="control pagi-bt">
+                                    <img src="./assets/images/Arrow-Right.svg" alt="">
+                                </span>
+                                <span class="pagi-bt active">1</span>
+                                <span class="pagi-bt ">2</span>
+                                <span class="pagi-bt ">3</span>
+                                <span class="pagi-bt ">4</span>
+                                <span class="control pagi-bt">
+                                    <img src="./assets/images/Arrow-next.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                        <div class="wrap__product-list product-list-page">
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    14%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb06.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    34%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb07.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    33%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb08.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    38%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb09.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    23%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb10.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    14%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb06.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    34%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb07.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    33%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb08.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    38%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb09.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    23%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb10.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    38%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb09.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                            <div class="product__item">
+                                <div class="p-persent">
+                                    <img src="./assets/images/down-white.svg" alt="">
+                                    23%
+                                </div>
+                                <a class="__thumb" href="#">
+                                    <img src="./assets/images/thumb10.png" alt="">
+                                </a>
+                                <div class="product__item-text">
+                                    <a href="#" class="__title">
+                                        OrthoPro® Therapeutic Massager For Pain and Swelling + Exclusive
+                                    </a>
+                                    <div class="product__price d-flex pt-2 pb-2">
+                                        <span class="new">$ 139,90</span>
+                                        <span class="old">$ 199</span>
+                                    </div>
+                                    <p class="__desc">in up to 12 installments of <span>$ 14,17</span></p>
+                                    <span class="free-bt">FREE SHIPPING</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-end pt-4 pb-4">
+                            <div class="pagination-site">
+                                <span class="control pagi-bt">
+                                    <img src="./assets/images/Arrow-Right.svg" alt="">
+                                </span>
+                                <span class="pagi-bt active">1</span>
+                                <span class="pagi-bt ">2</span>
+                                <span class="pagi-bt ">3</span>
+                                <span class="pagi-bt ">4</span>
+                                <span class="control pagi-bt">
+                                    <img src="./assets/images/Arrow-next.svg" alt="">
+                                </span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <section class="pb-5 pt-5 h-transport">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <div class="transport__block d-flex align-items-start">
+                            <img src="./assets/images/buy-icon.svg" alt="">
+                            <div class="__text">
+                                <h4>Safe buy</h4>
+                                <p>Secure environment for online payments</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <div class="transport__block d-flex align-items-start">
+                            <img src="./assets/images/cart-icon.svg" alt="">
+                            <div class="__text">
+                                <h4>Buy one get one Free</h4>
+                                <p>Buy one get one free on all products, only for membership</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3 mb-4 mb-sm-4 mb-md-4 mb-lg-0">
+                        <div class="transport__block d-flex align-items-start">
+                            <img src="./assets/images/email-icon.svg" alt="">
+                            <div class="__text">
+                                <h4>Professional Support</h4>
+                                <p>Top notch support team all week</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6 col-lg-3">
+                        <div class="transport__block d-flex align-items-start">
+                            <img src="./assets/images/cart-icon-02.svg" alt="">
+                            <div class="__text">
+                                <h4>Satisfaction or Refund</h4>
+                                <p>If there is something, we will refund your money quickly.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- end main -->
+
+    <!-- start footer -->
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-4 col-lg-4">
+                    <div class="footer__block">
+                        <a href="home.html" class="footer__logo">
+                            <img src="./assets/images/logo.svg" alt="">
+                        </a>
+                        <h3>CUSTOMER SERVICE</h3>
+                        <span class="ct">SAC (Customer Service)</span>
+                        <a href="mailto:suporte@lojafazzo.com.br"><strong>E-mail:</strong> suporte@lojafazzo.com.br</a>
+                        <a href="tel:+55 19 98204-7664"><strong>WhatsApp:</strong> +55 19 98204-7664</a>
+                        <h3>Service Hours:</h3>
+                        <p>Mon to Fri: 09:00h to 18:00h</p>
+                        <p>Saturday, Sunday and Holidays: 09:00h to 13:00h</p>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="footer__block --ct">
+                        <h3>IMPORTANT INFORMATIONS</h3>
+                        <ul class="p-0">
+                            <li>
+                                <a href="">Shipping and Deadlines</a>
+                            </li>
+                            <li>
+                                <a href="">Order Tracking</a>
+                            </li>
+                            <li>
+                                <a href="">Exchanges and Returns</a>
+                            </li>
+                            <li>
+                                <a href="">Privacy Policy</a>
+                            </li>
+                            <li>
+                                <a href="">Service Terms</a>
+                            </li>
+                            <li>
+                                <a href="">Common questions</a>
+                            </li>
+                            <li>
+                                <a href="">Contact us</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col-12 col-md-4 col-lg-3">
+                    <div class="footer__block --ct">
+                        <h3>OUR NEWSLETTER</h3>
+                        <p>Subscribe to our newsletter and
+                            receive the best deals for FREE!
+                        </p>
+                        <input class="form-control --ft" type="text" placeholder="Your email">
+                        <button type="submit" class="btn --ft">To send</button>
+                    </div>
+                </div>
+                <div class="col-12 pt-lg-5 pt-4 pb-lg-5 pb-4">
+                    <p class="footer__text-center">Exclusive prices and payment conditions for purchases on this official website, which may vary with the time of the offer. Avoid buying cheaper products or products from other stores, as you may be being deceived by a scammer. In case you buy the same products in other stores, we are not responsible for any problems.</p>
+                </div>
+            </div>
+            <div class="footer__bt d-flex justify-content-between align-items-center">
+                <p class="footer__copyright">
+                    ©IBShop | Official Store - All rights reserved
+                </p>
+                <div class="ft__payment">
+                    <h5 class="text-center fw-normal">Payment methods</h5>
+                    <img src="./assets/images/BANDERIAS.png" alt="">
+                </div>
+                <div class="ft__patner d-flex align-items-center">
+                    <img src="./assets/images/NORTON.svg" alt="">
+                    <img src="./assets/images/PRETO.svg" alt="">
+                    <img src="./assets/images/GOOGLE.svg" alt="">
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- end footer -->
+
+
+
+    <script src="./vendor/swiper/swiper-bundle.min.js"></script>
+    <script src="./assets/js/main.js"></script>
+    <script>
+        const productSlide = new Swiper('.p-slide', {
+            slidesPerView: 1,
+            speed:1000,
+            loop: true,
+            autoplay: 
+            {
+            delay: 3000,
+            },
+            effect: 'fade',
+            fadeEffect: {
+                crossFade: true
+            },
+
+        });
+
+        const productThumbSlide = new Swiper('.p-thumb', {
+            slidesPerView: 6,
+            direction: "vertical",
+            speed:1000,
+            loop: true,
+            slideToClickedSlide: true,
+            autoplay: 
+            {
+            delay: 3000,
+            },
+           
+            
+        });
+
+        productSlide.controller.control = productThumbSlide;
+        productThumbSlide.controller.control = productSlide;
+    </script>
+    
+</body>
+</html>

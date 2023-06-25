@@ -1,0 +1,129 @@
+/*======= style for page product list =======*/
+body {
+    background-color: #fff;
+}
+
+.aside__block {
+    width: 100%;
+    box-shadow: 0px 5px 10px 0px #00000008;
+    border-radius: 16px;
+    padding: 26px 20px;
+}
+
+.aside__block h3 {
+    text-align: center;
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 20px;
+}
+
+.aside-menu {
+    padding-left: 0px;
+}
+
+.aside-menu li {
+    font-size: 14px;
+    font-weight: 400;
+    padding: 4px 0px;
+    color: #000;
+}
+
+.aside-menu li.is-active {
+    color: #152884;
+    font-weight: 600;
+}
+
+.aside-menu li span {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aside-submenu {
+    padding-left: 12px;
+}
+
+.product-list__title {
+    font-size: 26px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+
+.product-lsit__content {
+    padding: 26px 20px;
+    border-radius: 16px;
+    box-shadow: 0px 5px 10px 0px #00000008;
+}
+
+.pagination-site {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.pagi-bt {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+    border: 1px solid #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 15px;
+    color: #757575;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+.pagi-bt:hover {
+    opacity: .7;
+}
+
+.pagi-bt.active{
+    background-color: #0F136D;
+    border-color: #0F136D;
+    color: #fff;
+}
+
+.pagi-bt.control {
+    border: 1px solid #D1D1D1;
+    background: #DEDCDC;
+}
+
+.wrap__product-list.product-list-page {
+    flex-wrap: wrap;
+    row-gap: 20px;
+}
+
+.wrap__product-list.product-list-page .product__item{
+    min-height: 345px;
+    min-width: unset;
+    width: calc(100%/4 - 10px);
+}
+
+@media only screen and (max-width: 1200px) {
+    .wrap__product-list.product-list-page .product__item{
+        width: calc(100%/3 - 10px);
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    .wrap__product-list.product-list-page .product__item{
+        width: calc(100%/2 - 10px);
+    }
+    .pagination-site.--top {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .wrap__product-list.product-list-page .product__item{
+        width: 100%;
+    }
+    .pagi-bt {
+        width: 34px;
+        height: 34px;
+    }
+}
